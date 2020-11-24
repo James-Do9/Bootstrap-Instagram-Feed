@@ -1,0 +1,29 @@
+a{
+    color:grey;
+}
+a:active, a:hover{
+    color:grey;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color:darkgrey;
+    color:white;
+}
+
+.nav-pills{
+    font-size:0.8em;
+}
+
+.postbar{
+    display:flex;
+    justify-content: start;
+}
+
+.interactivebar{
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.leftbar{
+    justify-content: start;
+}
